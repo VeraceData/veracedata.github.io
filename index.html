@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VeraceData</title>
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="1" y="1" width="11" height="11" rx="2" fill="#0b8c6e"/>
+        <rect x="15" y="1" width="11" height="11" rx="2" fill="rgba(11,140,110,0.35)"/>
+        <rect x="1" y="15" width="11" height="11" rx="2" fill="rgba(11,140,110,0.35)"/>
+        <rect x="15" y="15" width="11" height="11" rx="2" fill="#c8a84b"/>
+        <line x1="12" y1="6.5" x2="15" y2="6.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="12" y1="21.5" x2="15" y2="21.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="6.5" y1="12" x2="6.5" y2="15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="21.5" y1="12" x2="21.5" y2="15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">Verace<span>Data</span></span>
+    </a>
+    <div class="nav-right">
+      <a href="how-it-works.html" class="nav-link">How it works</a>
+      <a href="why-it-matters.html" class="nav-link">Why it matters</a>
+      <a href="contact.html" class="nav-link nav-cta">Book a call</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="pill"><i class="ti ti-shield-check" aria-hidden="true"></i>Patent Pending</div>
+      <h1><span class="line1">The code is the same.</span><span class="line2">The definition is not.</span></h1>
+      <p class="hero-sub">Two sites in your study can use the same diagnosis code and mean completely different things clinically. We find that gap before your study runs and document it before it becomes a research error.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="contact.html" class="btn btn-solid">Book a call <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+        <a href="how-it-works.html" class="btn btn-ghost">See how it works</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="works-section">
+    <div class="works-inner">
+      <div class="works-header">
+        <span class="section-label">How the system works</span>
+        <h2>One study. Two concepts. Two very different outcomes.</h2>
+        <p>A research team is running a multi-site cardiovascular outcomes study. Both hospitals use the same OMOP concept codes. Standard data quality checks show no problems. Here is what the analysis found before the study ran.</p>
+      </div>
+      <div class="study-context">
+        <div class="ctx-label">The study</div>
+        <h3>Multi-site cardiovascular outcomes study examining heart failure and comorbid Type 2 Diabetes, two hospital networks</h3>
+        <p>Type 2 Diabetes is highly prevalent among heart failure patients and is included as a key comorbidity in this outcomes analysis. Both hospitals participate in the same OMOP research network and have passed data quality checks. The study team is ready to begin pooled analysis across both sites.</p>
+        <div class="found-label">Analysis results for the two concepts in scope</div>
+      </div>
+      <div class="results-grid">
+        <div class="r-card">
+          <div class="r-top">
+            <h3>Heart Failure — Reduced Pumping Function</h3>
+            <span class="badge red"><i class="ti ti-ban" aria-hidden="true"></i>Blocked</span>
+          </div>
+          <div class="r-score red">0.5628</div>
+          <div class="track"><div class="fill red"></div></div>
+          <div class="r-rows">
+            <div class="r-row"><span class="rk">Hospital A</span><span class="rv">Requires a heart scan to confirm the diagnosis before coding. The scan objectively measures how well the heart is pumping.</span></div>
+            <div class="r-row"><span class="rk">Hospital B</span><span class="rv">Takes the doctor's clinical judgment. A scan is not routinely required before coding the diagnosis.</span></div>
+            <div class="r-row"><span class="rk">The problem</span><span class="rv">Same concept code. One hospital requires objective proof. The other does not. Pooling them produces a misleading result.</span></div>
+            <div class="r-row"><span class="rk">What happens</span><span class="rv">The study query is blocked. A qualified reviewer must document how to handle the difference before the study proceeds.</span></div>
+          </div>
+        </div>
+        <div class="r-card">
+          <div class="r-top"><h3>Type 2 Diabetes</h3><span class="badge grn"><i class="ti ti-circle-check" aria-hidden="true"></i>Cleared</span></div>
+          <div class="r-score grn">0.0005</div>
+          <div class="track"><div class="fill grn"></div></div>
+          <div class="r-rows">
+            <div class="r-row"><span class="rk">Hospital A</span><span class="rv">Codes Type 2 Diabetes consistently from blood sugar results and clinical notes.</span></div>
+            <div class="r-row"><span class="rk">Hospital B</span><span class="rv">Same approach. Same source codes. Same clinical context.</span></div>
+            <div class="r-row"><span class="rk">The result</span><span class="rv">A score of 0.0005. Effectively zero difference between the two sites.</span></div>
+            <div class="r-row"><span class="rk">What happens</span><span class="rv">The query is cleared immediately. The research team can pool Type 2 Diabetes data without adjustment.</span></div>
+          </div>
+        </div>
+      </div>
+      <div style="height:20px"></div>
+      <div class="takeaways">
+        <h3>What this meant for the study</h3>
+        <div class="tg">
+          <div class="ti-row"><i class="ti ti-circle-check" aria-hidden="true"></i><p>The research team knew about the heart failure gap before spending a dollar on analysis. The study design was adjusted before it started.</p></div>
+          <div class="ti-row"><i class="ti ti-circle-check" aria-hidden="true"></i><p>Type 2 Diabetes was cleared immediately. No time wasted reviewing a concept already consistent across both sites.</p></div>
+          <div class="ti-row"><i class="ti ti-circle-check" aria-hidden="true"></i><p>The reviewer's decision was recorded in a tamper-evident audit log. Documented, dated, and defensible.</p></div>
+          <div class="ti-row"><i class="ti ti-circle-check" aria-hidden="true"></i><p>No patient data left either hospital at any point. The analysis compared summary profiles only.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="div">
+  <div style="max-width:960px;margin:0 auto;padding:72px 32px">
+    <div class="section-label">The problem</div>
+    <h2 style="font-family:'DM Serif Display',serif;font-size:clamp(26px,4vw,38px);font-weight:400;letter-spacing:-.02em;line-height:1.2;margin-bottom:14px">Data quality checks will not catch this</h2>
+    <p style="font-size:16px;color:var(--gray700);max-width:580px;line-height:1.7;margin-bottom:40px">Both hospitals coded correctly. Both passed every data quality check. The problem is not bad data. It is that two institutions apply the same concept differently in practice. That difference silently distorts your study.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a href="how-it-works.html" class="btn btn-solid">See how we fix it <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      <a href="contact.html" class="btn btn-outline">Book a call</a>
+    </div>
+  </div>
+
+  <div class="home-stats">
+    <div class="home-stats-inner">
+      <div><div class="stat-n">0</div><div class="stat-l">Patient records transmitted<br>from any site</div></div>
+      <div><div class="stat-n">1 week</div><div class="stat-l">Typical turnaround from<br>first call to report</div></div>
+      <div><div class="stat-n">100%</div><div class="stat-l">Audit trail<br>integrity verified</div></div>
+    </div>
+  </div>
+
+  <div class="cta-sec">
+    <div class="cta-inner">
+      <h2>Ready to find out what your study is missing?</h2>
+      <p>You share your study concepts. We run the analysis and deliver the report. No software to install on your end.</p>
+      <a href="contact.html" class="btn btn-white">Book a call <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 <span>VeraceData</span> · Patent Pending</footer>
+
+</body>
+</html>
