@@ -180,4 +180,28 @@ footer span{color:var(--teal-light)}
   .big-step{grid-template-columns:1fr}
   .step-body{margin-left:0;margin-top:12px}
   .resolution-box{flex-direction:column;gap:14px}
+}@media(max-width:700px){
+  body{font-size:15px}
+  .hero-sub{font-size:15px}
+  .section .lead{font-size:15px}
+  .r-row{font-size:14px}
+  .rv{font-size:14px}
+  .qa-q{font-size:15px}
+  .qa-a{font-size:14px}
+  .step-body h3{font-size:16px}
+  .step-body p{font-size:14px}
+  .share-card p{font-size:14px}
+  .share-card h3{font-size:15px}
+  .why-card p{font-size:14px}
+  .why-card h3{font-size:15px}
+  .result-card p{font-size:14px}
+  .report-item p{font-size:13px}
+  .resolution-box p{font-size:14px}
+  .privacy-inner .priv-lead{font-size:15px}
+  .privacy-point p{font-size:14px}
+  .nav-link{font-size:12px;padding:6px 8px}
+  .btn{font-size:13px;padding:12px 20px}
+  .section{padding:48px 20px}
+  .works-section{padding:48px 20px}
+  .hero{padding:72px 20px 52px}
 }
